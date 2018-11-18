@@ -1,0 +1,41 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// Custom Styling
+@import 'nav';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+// Typography 
+// tb = Tobi
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+.btn {
+  font-family: 'Oswald';
+}
+
+.tb-oswald {
+  font-family: 'Oswald';
+}
+
+h1, h2, h3, h4, h5, h6, .tb-lora {
+  font-family: 'Lora';
+}
+
